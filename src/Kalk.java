@@ -12,7 +12,18 @@ public class Kalk {
         System.out.println("1=+, 2=-, 3=*, 4=/");
         int metod = tb.nextInt();
 
-       
+        if (metod == 1){
+            System.out.println("Ditt tal är "+(nummer1+nummer2));
+        }
+        if (metod == 2){
+            System.out.println("Ditt tal är "+(nummer1-nummer2));
+        }
+        if (metod == 3){
+            System.out.println("Ditt tal är "+(nummer1*nummer2));
+        }
+        if (metod == 4){
+            System.out.println("Ditt tal är "+(nummer1/nummer2));
+        }
 
     }
 }
